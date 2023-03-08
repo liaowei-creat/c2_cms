@@ -20,7 +20,7 @@ class ShopPage(BasePage):
     __INT_PICTURE = (By.CSS_SELECTOR, '[class="el-upload__input"]')
     __BTN_CONFIRM = (By.XPATH, "//*[text()='Confirm']")
 
-    '''列表页面'''
+    '''列表页面 '''
 
     # 点击其中一个shop的编辑按钮修改里面的信息
     def click_shop_edit(self, name):
